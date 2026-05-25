@@ -120,6 +120,7 @@ function selectAnswer(button, answer, correctAnswer) {
         button.classList.add("wrong");
 
     }
+    nextBtn.style.display = "block";
 
 }
 
@@ -143,7 +144,7 @@ function nextQuestion() {
 
 function resetState() {
 
-    nextBtn.style.display = "block";
+    nextBtn.style.display = "none";
 
     answersElement.innerHTML = "";
 
